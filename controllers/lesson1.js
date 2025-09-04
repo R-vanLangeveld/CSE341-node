@@ -1,5 +1,5 @@
 const ryndeeRoute = (req, res) => {
-  res.send("Hello, Ryndee van Langeveld. The other availible routes are: /alex and /contacts");
+  res.send("Hello, User. To use this api add /contacts to the end of the url");
 }
 
 const alexRoute = (req, res) => {
