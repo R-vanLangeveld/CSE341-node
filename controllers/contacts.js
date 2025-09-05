@@ -18,11 +18,6 @@ const getSingle = async (req, res) => {
   });
 }
 
-const contactsRoute = (req, res) => {
-  res.send("Hello World");
-  console.log("working");
-}
-
 module.exports = {
-  contactsRoute, getAll, getSingle
+  getAll, getSingle
 }
