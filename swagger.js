@@ -7,7 +7,7 @@ const doc = {
   },
   // host: "localhost:3000", // For Testing
   host: "cse341-node-basl.onrender.com", // For Render
-  schemes: ["http", "https"]
+  schemes: ["https"]
 };
 
 const outputFile = "./swagger.json";
