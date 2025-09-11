@@ -6,7 +6,7 @@ const doc = {
     description: "Contacts API"
   },
   // host: "localhost:3000", // For Testing
-  host: "https://cse341-node-basl.onrender.com", // For Render
+  host: "cse341-node-basl.onrender.com", // For Render
   schemes: ["http", "https"]
 };
 
