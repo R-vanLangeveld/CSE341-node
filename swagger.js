@@ -1,13 +1,14 @@
 const swaggerAutogen = require("swagger-autogen")();
 
+const port = process.env.PORT || 3000;
+
 const doc = {
   info: {
     title: "Contacts API",
     description: "Contacts API"
   },
-  // host: "localhost:3000", // For Testing
-  host: "cse341-node-basl.onrender.com", // For Render
-  schemes: ["https"]
+  host: process.env.NODE_ENV==='production'?'cse341project1-0a6p.onrender.com': 'localhost:'+port,
+  schemes: process.env.NODE_ENV==='production'? ['https'] : ['http']
 };
 
 const outputFile = "./swagger.json";
