@@ -30,6 +30,7 @@
     "express": "^5.1.0",
     "mongodb": "^6.17.0",
     "swagger-ui-express": "^5.0.1",
+    "swagger-autogen": "^2.23.7",
     "validatorjs": "^3.22.1"
   },
   "devDependencies": {
